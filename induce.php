@@ -1,5 +1,5 @@
-#!/usr/bin/env php
 <?php
+#!/usr/bin/env php
 // Name: induce
 // Version: 1.0.1
 // Author: Zingus J. Rinkle
@@ -137,11 +137,12 @@ class induce {
 
 function induce($data)
 {
-  return induce::_expand($data);
+  error_reporting(E_ALL & ~E_DEPRECATED & ~E_STRICT);
+  return @induce::_expand($data);
 }
 
 // main
-if(realpath($argv[0])==__FILE__) {
+if(realpath(@$argv[0])==__FILE__) {
   $data=implode(' ',array_slice($argv,1));
   foreach(induce($data) as $line) echo "$line\n";
 }
