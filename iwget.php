@@ -37,20 +37,6 @@ foreach($args as $arg) {
   }
 }
 
-/*
-$script="";
-while($inducted) {
-  $slice=array_splice($inducted,0,$maxArgs-$cmdArgCount);
-  $commandArgs=array();
-  foreach($slice as $arg) {
-    $commandArgs[]="--referer=$arg"; // forge referer
-    $commandArgs[]="$arg";
-  }
-  $commandArgs=implode("' '",$commandArgs);
-  $script.="$cmd '$commandArgs' \n";
-}
-*/
-
 $script=array();
 $commandLine="$cmd";
 $argCount=$cmdArgCount;
@@ -73,14 +59,21 @@ while($inducted) {
 }
 $script[]=$commandLine;
 
+// running script
+
 foreach($script as $commandLine) {
   echo $commandLine,"\n";
   system($commandLine);
 }
 
-var_export($script);
-
+// dumping script
+/*
 $fp=fopen('wgetScript.bat','w');
 foreach($script as $commandLine)
   fwrite($fp,$commandLine."\r\n");
 fclose($fp);
+
+// dump ain't working on windows, as each and every call to
+// wget.bat would require a "call" command preceding it
+*/
+
