@@ -1,6 +1,6 @@
 {
     "name": "zingus/induce",
-    "description": "A library to allow for inductive text generation (also sometimes referred as reverse-regexp processing)",
+    "description": "Inductive text generation (also sometimes referred as \"reverse-regexp processing\") library",
     "authors": [
         {
             "name": "zingus",
