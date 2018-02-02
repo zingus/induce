@@ -7,7 +7,7 @@
             "email": "zingus@gmail.com"
         }
     ],
-    "license":"GPL",
+    "license": "GPL-3.0-or-later",
     "minimum-stability": "dev",
     "require": {}
 }
