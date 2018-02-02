@@ -1,0 +1,13 @@
+{
+    "name": "zingus/induce",
+    "description": "A library to allow for inductive text generation (also sometimes referred as reverse-regexp processing)",
+    "authors": [
+        {
+            "name": "zingus",
+            "email": "zingus@gmail.com"
+        }
+    ],
+    "license":"GPL",
+    "minimum-stability": "dev",
+    "require": {}
+}
