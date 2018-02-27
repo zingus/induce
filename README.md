@@ -8,11 +8,11 @@ put it in shape for that purpose.
 If you're interested in it and you wish I wrote some documentation, examples, and
 allowed autoloading it... please let me know via the [issue tracker][issues].
 
-#iWget
+## iWget
 
 Induce also comes with an iWget command line wrapper that allows it to download series of induced urls.
 
-## Example
+### Example
 
     iwget http://example.com/site/folder/picture[1..300].jpg
 
