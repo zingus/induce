@@ -16,6 +16,6 @@ Induce also comes with an iWget command line wrapper that allows it to download 
 
     iwget http://example.com/site/folder/picture[1..300].jpg
 
-Will download picture1.jpg, picture2.jpg... up to picture300.jpg
+Will download `picture1.jpg`, `picture2.jpg`... up to `picture300.jpg`
 
 [issues]: https://github.com/zingus/induce/issues
