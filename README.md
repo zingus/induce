@@ -10,7 +10,7 @@ allowed autoloading it... please let me know via the [issue tracker][issues].
 
 ## iWget
 
-Induce also comes with a wget command line wrapper that allows it to download series of induced urls.
+Induce also comes with a `wget` command line wrapper that allows it to download series of induced urls.
 
 ### Example
 
