@@ -4,6 +4,7 @@
 // Version: 1.0.1
 // Author: Zingus J. Rinkle
 // Website: http://www.uehb.it/induce
+//
 
 class induce {
   function _expand($data)
